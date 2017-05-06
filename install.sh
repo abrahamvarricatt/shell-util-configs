@@ -22,6 +22,7 @@ linkfile() {
 
 main() {
   linkfile '.zshrc'
+  linkfile '.tmux.conf'
 }
 
 main

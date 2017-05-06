@@ -17,3 +17,14 @@ it needs to run the following custom command,
 ```zsh
 $ tmux new-session -A -s default
 ```
+
+After the above is ready, just clone this repository to the HOME folder and
+run the install script. Restarting the shell session after that should get
+things running!
+
+```zsh
+$ cd ~
+$ git clone THIS-REPOSITORY
+$ cd shell-util-configs
+$ ./install.sh
+```

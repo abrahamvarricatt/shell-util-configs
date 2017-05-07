@@ -5,17 +5,22 @@ this repository is to have a common location where I can grab my configs from.
 A prerequisite is that the following needs to be ready,
 
 * Terminal emulator with Solarized color scheme (dark version)
-* Anonymous Pro font patched for Powerline
+* Powerline fonts installed (all of them!)
 * git
 * tmux
 * zsh (As the default shell)
 * oh-my-zsh
 
+Tools I use:
+
+* pyenv
+* nvm
+
 I want to use tmux for tab management. So when opening a new terminal session,
 it needs to run the following custom command,
 
 ```zsh
-$ tmux new-session -A -s default
+$ tmux new-session -A -s tmux
 ```
 
 After the above is ready, just clone this repository to the HOME folder and
@@ -28,3 +33,6 @@ $ git clone THIS-REPOSITORY
 $ cd shell-util-configs
 $ ./install.sh
 ```
+
+It may be necessary to switch around fonts to get the alighnments right. On an
+Ubuntu system, I'm currently using 'Hack Regular'.

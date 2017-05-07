@@ -23,6 +23,7 @@ linkfile() {
 main() {
   linkfile '.zshrc'
   linkfile '.tmux.conf'
+  linkfile '.vimrc'
 }
 
 main

@@ -15,6 +15,7 @@ Tools I use:
 
 * pyenv
 * nvm
+* vim
 
 I want to use tmux for tab management. So when opening a new terminal session,
 it needs to run the following custom command,
@@ -36,3 +37,18 @@ $ ./install.sh
 
 It may be necessary to switch around fonts to get the alighnments right. On an
 Ubuntu system, I'm currently using 'Hack Regular'.
+
+vim plugins have their own git repositories, so I'm not including them. The
+following clones need to be run,
+
+```zsh
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+Open vim for the first time and run,
+
+```
+:PluginInstall
+```
+
+Should hopefully put everything in! :)

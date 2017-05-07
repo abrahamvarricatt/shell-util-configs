@@ -33,8 +33,11 @@ filetype plugin indent on    " required
 """"""""""""""""""""""""""""""""""""""""""""""""
 " For the colorscheme
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
 " To see vim-airline
 set laststatus=2
+
+" Miscellaneous
+set expandtab

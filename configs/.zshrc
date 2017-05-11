@@ -79,3 +79,6 @@ export EDITOR="vim"
 
 # Disable default pyenv prompt
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+# Adding ~/.local/bin to PATH
+export PATH=~/.local/bin:$PATH
+

@@ -6,3 +6,6 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$reset_color%})"
 local ret_status="%(?:%{$fg_bold[green]%}$:%{$fg_bold[red]%}$)"
 PROMPT='%{$fg_no_bold[green]%}%*%{$reset_color%}|%~ $(git_prompt_info) $(pyenv_prompt_info)
 ${ret_status} %{$reset_color%}'
+
+alias tmux-reconnect="tmux new-session -A -s tmux"
+

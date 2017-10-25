@@ -80,5 +80,6 @@ export EDITOR="vim"
 # Disable default pyenv prompt
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 # Adding ~/.local/bin to PATH
-export PATH=~/.local/bin:$PATH
+export PATH=~/.local/google-cloud-sdk/bin:~/.local/bin:$PATH
+export GOOGLE_CLOUD_SDK=~/.local/google-cloud-sdk
 

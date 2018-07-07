@@ -82,4 +82,10 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 # Adding ~/.local/bin to PATH
 export PATH=~/.local/google-cloud-sdk/bin:~/.local/bin:$PATH
 export GOOGLE_CLOUD_SDK=~/.local/google-cloud-sdk
+# Adding maven to PATH
+export PATH=~/.local/apache-maven/bin:$PATH
+
+
+# For lisp
+alias lisp="rlwrap sbcl"
 
